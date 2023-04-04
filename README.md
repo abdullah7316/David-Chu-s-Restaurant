@@ -1,1 +1,2 @@
-"# David-Chu-s-Restaurant" 
+# Sample-Projects
+My first practice project.
