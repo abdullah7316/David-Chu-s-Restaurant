@@ -98,12 +98,7 @@ ul li .nav-link:hover{
         top: 160px;
     }
 }
-@media(max-width:576px){
-    .ordernow-btn{
-        right: 5px;
-        top: 90vh;
-    }
-}
+
 
 /*--------------------------------Jumbotron Image----------------------------------------*/
 .bg-img{
@@ -411,7 +406,7 @@ ul li .nav-link:hover{
 /*---------------------Sub-Category----------------------------------*/
 
 .sub-category > .row{
-    color: #fff;
+    color: black;
     margin-top: 60px;
 }
 
@@ -429,7 +424,9 @@ ul li .nav-link:hover{
     text-transform: uppercase;
     margin: 15px;
 }
-
+.sub-category .col-md-6{
+    margin-bottom: 20px;
+}
 
 .inner-sub-category .col-sm-5{
     position: relative;
@@ -474,29 +471,23 @@ ul li .nav-link:hover{
 
 .inner-sub-category .col-sm-7{
     position: relative;
-    height: 150px;
+    height: auto;
     margin: 0;
     padding: 0;
-    background-color: darkred;
+    background-color: rgb(238, 238, 238);
+    padding: 12px;
 }
 .inner-sub-category .col-sm-7 p{
     text-align: justify;
     font-size: 18px;
-    padding: 12px;
 }
-@media(min-width:767px) and (max-width:992px){
-    .inner-sub-category .col-sm-7{
-        height: auto;
-    }
-}
-@media(max-width:767px){
-    .sub-category .col-md-6{
-        margin-bottom: 20px;
-    }
-}
+
+
 @media(max-width:576px){
-    .inner-sub-category .col-sm-7{
+    .inner-sub-category .col-sm-5, .inner-sub-category .col-sm-7{
         height: auto;
+        margin: 1px auto;
+        text-align: center;
     }
 }
 /*---------------------------------------------------------------------------------*/
